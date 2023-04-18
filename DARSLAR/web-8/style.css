@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* 
+img{
+    width: 400px;
+    height: 500px;
+    border: 5px solid blue;
+    opacity: 0.5;
+}
+.rasm{
+   width: 300px;
+   height: 300px;
+   border: 6px solid gold; 
+   background-image:linear-gradient(to top, rgba(255, 0, 0, 0.361),rgba(0, 0, 255, 0.439),rgba(0, 0, 0, 0.536),rgba(255, 255, 0, 0.525)),url(../photos/Без\ названия.jfif);
+   background-size: cover;
+   border-radius: 20px;
+
+} */
+.container{
+    width: 1200px;
+    height: 700px;
+    border: 5px solid blue;
+    margin: auto;
+    display: flex;
+    justify-content: center;/* o'rtaga
+/* justify-content: start; - boshidan */
+/* justify-content: end; - oxiri */    
+   /* justify-content: space-between; - ikki chekaga taqab sochadi */
+/* justify-content: space-around; - ikki chekadan malum bir joy qoldirib sochadi */
+/* justify-content: space-evenly; teng oraliq tahsimlab sochadi */
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;
+/* flex-wrap: wrap; */
+
+
+}
+.container .item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}

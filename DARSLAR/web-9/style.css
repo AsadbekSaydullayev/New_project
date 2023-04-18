@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    border: 5px double rebeccapurple;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .nav{
+    width: 150px;
+    height: 150px;
+    border: 10px double black;
+    transition: 1s;
+}
+.container .nav h1{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 2s;
+}
+/* .container .nav:hover{
+    transform: translate(0,-50px);
+    - yozuvni suraadi
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+ 
+}
+.container .nav h1:hover{
+      opacity: 1; 
+} */
+.container .nav:hover{
+    transform: rotate(1440deg); /*- aylantiradi*/
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+ 
+}
+.container .nav h1:hover{
+      opacity: 1; 
+}
+/* .container .nav:hover{
+    transform: scale(1.5); - ikki barobar kattalashtiradi
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+ 
+}
+.container .nav h1:hover{
+      opacity: 1; 
+} */
+/* .container .nav:hover{
+    transform: skew(25deg); - qiyshaytiradi
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+ 
+}
+.container .nav h1:hover{
+      opacity: 1; 
+} */

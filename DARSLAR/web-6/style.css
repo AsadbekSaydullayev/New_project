@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;/*teks tagidagi chiziqni oladi */
+    text-decoration: none;  /* ul va ol ni oldidagi belgisini yo'qotadi */ 
+    box-sizing: border-box;  /* biz bergan o'lchamni saqlaydi */
+   }
+#wrap{
+    width: 1000px;
+    height: 600px;
+    border: 5px solid fuchsia;
+    background-image: url(../photos/Без\ названия.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; -yuqoridan tashqaridan sursin
+    margin-left: 200px; - o'ngdan tashqaridan sursin
+    margin-bottom: 100px;  - pastdan tashqaridan sursin
+    margin-right: 200px; - chapdan tashqaridan sursin*/
+    margin: auto;
+    /* bizni kontentni(karopka) o'rtaga olib keladi */
+}
+.nav{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    background-image: url(../photos/images.jfif);/* rasm qo'yish */
+    background-repeat: no-repeat;/*  rasm takrorlanmasligi uchun*/
+    background-size: cover;/* rasm biz bergan joyni to'liq egalashi uchun */
+    background-position: center;/* rasm pazitsiasi(qismi) */
+    margin-right: 10px;
+}
